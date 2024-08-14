@@ -17,7 +17,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3 # 使用部署到 GitHub pages 的 action
         with:
-          external_repository: BioITee/BioITAssets
+          external_repository: BioITee/OpenStaticAssets
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           publish_dir: ./
           publish_branch: gh-pages	# 发布到哪个 branch
